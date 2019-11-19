@@ -1,0 +1,115 @@
+
+/**{
+    box-sizing: border-box;
+}
+body{
+    margin:auto;
+    margin-top: 60px;
+    width: 1000px;
+    height: 550px;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: white;
+}*/ 
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/imgd.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 95vh;
+}
+.btn-logo{
+    background: crimson;
+    color: white;
+    margin: auto;
+    padding: 10px 40px;
+    font-size: 20px;
+}
+.logo h1{
+    font-family: 'Pacifico',cursive;
+    color: #204862;
+    text-align: center;
+    font-size: 3em;
+}
+h2{
+    color: #204862;
+    text-align: center;
+}
+.form-register{
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    border-radius: 2px;
+}
+
+.form__titulo{
+    background: deepskyblue;
+    color: white;
+    padding:20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid crimson;
+}
+
+.contenedor-inputs{
+    width: 85%;
+    text-align: center;
+    align-content: center;
+    padding: 30px;
+    /*padding:10 px 30px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+}
+
+.input-100{
+    width: 100%;
+}
+
+.btn-enviar{
+    background: crimson;
+    color: white;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn-enviar:hover{
+    transform: scale(1.05);
+}
+
+.foot{
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+}
+.letra {
+    text-decoration: none;
+    color: #0183BC;
+}
+.form__link{
+    background: white;
+
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+}
